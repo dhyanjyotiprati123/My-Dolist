@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: #9ddfd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 , h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+.list{
+  width:40vw;
+  height:60vh;
+  background-color: #ffdada;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 12px 20px -8px black;
+  
+}
+
+.list ol{
+  list-style: none;
+
+}
+
+.fields{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.userInput{
+  margin-top: 20px;
+  padding: 5px;
+  width: 60%;
+  line-height: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.userButton{
+  margin-top: 20px;
+  border: none;
+  background-color: blueviolet;
+  color:white;
+  font-weight: bolder;
+  align-items: center;
+  border-radius: 60%;
+  line-height: .5rem;
+}
